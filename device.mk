@@ -71,3 +71,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/nairo/nairo-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
